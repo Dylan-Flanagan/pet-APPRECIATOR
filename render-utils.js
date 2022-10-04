@@ -5,6 +5,7 @@ export function renderPet(pet) {
     // the right elements below:
 
     const img = document.createElement('img');
+    img.src = pet.image_url;
 
     const h2 = document.createElement('h2');
 
